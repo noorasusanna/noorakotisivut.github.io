@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "GOT";
+  src: url(fonts/GOT.ttf);
+}
+
+@font-face {
+  font-family: "SEDAN SC";
+  src: url(fonts/SedanSC.ttf);
+}
+
+@font-face {
+  font-family: "SANS";
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "SANS LIGHT";
+  src: url(fonts/OpenSans-Light.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "SEDAN SC", Helvetica, Arial
+}
+
+.modal-footer {
+  border: none;
+}
+
+.maincontent {
+  padding-top: 0%;
+  padding-left: 0%;
+}
+
+.red {
+  border-color: red;
+  padding: 1%;
+  border-style: solid;
+  border-width: medium;
+}
+
+.green {
+  border-color: green;
+  padding: 1%;
+  border-style: solid;
+  border-width: medium;
+}
+
+.col {
+  padding-bottom: 3rem;
+}
+
+.col-lg {
+  height: 200px;
+  overflow: hidden;
+  margin: 10px 0;
+  position: relative;
+  flex-basis: 30%;
+}
+
+.col-lg img {
+  display: block;
+  position: absolute;
+  left: -1000%;
+  right: -1000%;
+  top: -1000%;
+  bottom: -1000%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.imgrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav {
+  position: relative;
+  margin: 0 0;
+}
+
+#title {
+  padding-top: 20px;
+  padding-right: 35px;
+  font-size: 17px;
+  font-family: "GOT"
+}
+
+ul {
+  padding-right: 110px;
+  font-size: 18px;
+}
+
+#spacing {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+p {
+  font-family: "SANS", Arial;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .5rem;
+}
+
+.row {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+#logo {
+  padding-left: 1px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#icon1 {
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+#icon2 {
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+#icon3 {
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+#the-tips {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1440px;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.headline {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+#the-text {
+  font-family: "SANS", Arial;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.css-10cj0ea {
+  grid-column: 1/-1;
+  border-top: solid 1px #9D9D9D;
+  width: 70%;
+  padding-bottom: 10px;
+}
+
+#content1 {
+  position: relative;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  max-width: 1440px;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+
+#content2 {
+  position: relative;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  max-width: 1440px;
+  -webkit-column-gap: 2rem;
+  column-gap: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+
+#header1 {
+  position: relative;
+  padding-top: 50px;
+  text-align: left;
+}
+
+#header2 {
+  position: relative;
+  padding-top: 50px;
+  text-align: left;
+}
+
+#cont1 {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+#cont2 {
+  position: relative;
+  padding-top: 60px;
+  text-align: right;
+  padding-bottom: 80px;
+}
+
+.modal-header,
+.modal-body {
+  font-family: "SANS", Arial;
+}
+
+.fa-brands {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+#headline {
+  padding-bottom: 3rem;
+}
+
+.facts-right {
+  text-align: end;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
